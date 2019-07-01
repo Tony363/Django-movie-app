@@ -20,7 +20,7 @@ def create(request):
     if request.method == 'POST':
         data = {
             'Name': request.POST.get('name'),
-            'Pictures': [{'url': request.POST.get('url') or 'https://www.classicposters.com/images/nopicture.gif'}],
+            'Pictures': [{'url': request.POST.get('url') or 'https://wingslax.com/wp-content/uploads/2017/12/no-image-available.png'}],
             'Rating': int(request.POST.get('rating')),
             'Notes': request.POST.get('notes')
         }
@@ -37,7 +37,7 @@ def edit(request, movie_id):
     if request.method == 'POST':
         data = {
             'Name': request.POST.get('name'),
-            'Pictures': [{'url': request.POST.get('url') or 'https://www.classicposters.com/images/nopicture.gif'}],
+            'Pictures': [{'url': request.POST.get('url') or 'https://wingslax.com/wp-content/uploads/2017/12/no-image-available.png'}],
             'Rating': int(request.POST.get('rating')),
             'Notes': request.POST.get('notes')
         }
