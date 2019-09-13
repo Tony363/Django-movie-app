@@ -102,8 +102,7 @@ body::before {
 
 .main {
     background: #202020;
-    /* fallback for old browsers */
-	/*     background-image: url('./clock-pattern.png'); */
+  
 }
 
 .result {
